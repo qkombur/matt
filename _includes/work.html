@@ -1,0 +1,21 @@
+<div class="work">
+
+  <h1 class="work-header">My Work</h1>
+
+<h2 class="work-subheader">Test Section</h2>
+{% for project in site.projects %}
+<div class="work-container">
+  <div class="flex-row">
+    <div class="box" style="background: url(
+    {{project.baseurl}}/img/{{project.img}});
+      background-size: cover;
+      overflow: hidden;">
+      <div class="overlay">
+        <span class="hover-text">{{project.title}}<br>{{project.body}}</span>
+      </div>
+    </div>
+  </div>
+</div>
+{% endfor %}
+
+</div>
