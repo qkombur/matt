@@ -92,7 +92,7 @@ $on-palm: 900px;
 .work-container {
   display: flex;
   justify-content: center;
-  flex-flow: wrap;
+  flex-direction: column;
 }
 
 .work {
