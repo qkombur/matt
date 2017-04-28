@@ -66,10 +66,11 @@ $on-palm: 900px;
 }
 .about-header {
   margin-bottom: 70px;
+  margin-top: 20px;
   @include media-query($on-palm) {
   font-size: 24px;
   margin-bottom: 20px;
-  margin-top: 20px;
+
   }
 }
 .about-body {
