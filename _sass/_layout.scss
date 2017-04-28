@@ -90,6 +90,7 @@ $on-palm: 900px;
 .work-container {
   display: flex;
   justify-content: center;
+  flex-flow: wrap;
 }
 
 .work {
@@ -118,41 +119,12 @@ $magic-width: 287px;
 
 }
 
-.box-1{
-  background: url(../img/starwars1.jpg);
-  background-size: cover;
-  overflow: hidden;
-}
-.box-2{
-  background: url(../img/starwars2.jpg);
-  background-size: cover;
-  overflow: hidden;
-}
-.box-3{
-  background: url(../img/starwars3.jpg);
-  background-size: cover;
-  overflow: hidden;
-}
-.box-4{
-  background: url(../img/action.jpg);
-  background-size: cover;
-  overflow: hidden;
-}
-.box-5{
-  background: url(../img/ant.jpg);
-  background-size: cover;
-  overflow: hidden;
-}
-.box-6{
-  background: url(../img/createatoy.jpg);
-  background-size: cover;
-  overflow: hidden;
-}
+
 
 .overlay {
   background: rgba(0, 0, 0, .75);
   text-align: center;
-  padding: 45px 0 66px 0;
+  padding: 45px 10px 66px 10px;
   opacity: 0;
   -webkit-transition: opacity .25s ease;
   -moz-transition: opacity .25s ease;
@@ -161,6 +133,10 @@ $magic-width: 287px;
 
 .box:hover .overlay {
   opacity: 1;
+}
+
+.flex-row {
+  padding: 10px 10px;
 }
 
 .hover-text {
