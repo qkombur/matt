@@ -1,6 +1,6 @@
 ---
 title: "CreateUrToy"
-body: "These are merely the blueprints for the Giant Ant action figure.  It is a featured creature in The Daydreamer comic book.  Actual action figures will be soon to follow."
+body: "This is a concept drawing for one of my original ideas a toy you can create yourself.  It also promotes The Daydreamer with the Giant Ant and The Sentry.  The patent and copyright are pending."
 
 img: createatoy.jpg
 ---
